@@ -1,0 +1,20 @@
+.header__link{
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+    color: #151515;
+    transition: opacity 0.4s;
+}
+.header__link:hover{
+    opacity: 0.75;
+}
+
+@media screen and (max-width: 767px) {
+    .header__link{
+        display: none;
+    }
+}
