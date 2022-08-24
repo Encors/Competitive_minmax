@@ -1,0 +1,13 @@
+.workout__links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-self: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+  .workout__links {
+    margin-top: 40px;
+  }
+}

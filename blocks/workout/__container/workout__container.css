@@ -1,0 +1,24 @@
+.workout__container {
+  margin: 0 auto;
+  max-width: calc(100% - 120px * 2);
+  display: grid;
+  column-gap: 160px;
+  grid-template-columns: 460px 1fr;
+  grid-template-rows: minmax(60px, auto);
+}
+
+@media screen and (max-width: 768px) {
+  .workout__container {
+    max-width: 580px;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .workout__container {
+    max-width: calc(100% - 18px * 2);
+    margin: 0 auto;
+    display: block;
+  }
+}

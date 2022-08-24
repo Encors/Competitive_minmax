@@ -10,4 +10,6 @@
     width: calc(100% - 10px * 2);
     margin: 0 auto;
     padding: 16px 0;
+    position: relative;
+    z-index: 1;
 }

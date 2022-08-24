@@ -1,0 +1,17 @@
+.footer__container {
+  max-width: 360px;
+  margin-left: 120px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__container {
+    max-width: calc(100% - 40px * 2);
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .footer__container {
+    max-width: 284px;
+  }
+}
