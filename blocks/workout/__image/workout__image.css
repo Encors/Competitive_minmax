@@ -1,0 +1,21 @@
+.workout__image {
+  max-width: 580px;
+  width: 100%;
+  height: 460px;
+  object-fit: cover;
+  object-position: center;
+  grid-row: 1/4;
+  grid-column: 2;
+}
+
+@media screen and (max-width: 768px) {
+  .workout__image {
+    margin: 40px auto;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .workout__image {
+    height: 225px;
+  }
+}

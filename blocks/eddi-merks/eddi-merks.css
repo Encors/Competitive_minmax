@@ -1,0 +1,7 @@
+.eddi-merks{
+    display: flex;
+    column-gap: 80px;
+    padding: 120px 0 60px;
+    margin: 0 120px;
+    max-width: calc(100% - 120px *2);
+}

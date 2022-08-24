@@ -1,0 +1,5 @@
+.eddi-merks__quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

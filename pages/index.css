@@ -1,8 +1,68 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/content/content.css);
+@import url(../blocks/link/link.css);
+@import url(../blocks/link/_active/link_active.css);
+@import url(../blocks/link/_inactive/link_inactive.css);
 /*header*/
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__menu/header_menu.css);
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__line/header__line.css);
+@import url(../blocks/route/route.css);
+@import url(../blocks/route/__info/route__info.css);
+@import url(../blocks/route/__title/route__title.css);
+@import url(../blocks/route/__text/route__text.css);
+@import url(../blocks/route/__subblock/route__subblock.css);
+@import url(../blocks/route/__subblock-text/route__subblock-text.css);
+@import url(../blocks/route/__subblock-line/route__subblock-line.css);
+@import url(../blocks/route/__btn/route__btn.css);
+@import url(../blocks/route/__btn-text/route__btn-text.css);
+@import url(../blocks/route/__img/route__img.css);
+@import url(../blocks/eddi-merks/eddi-merks.css);
+@import url(../blocks/eddi-merks/__author/eddi-merks__author.css);
+@import url(../blocks/eddi-merks/__img/eddi-merks__img.css);
+@import url(../blocks/eddi-merks/__name/eddi-merks__name.css);
+@import url(../blocks/eddi-merks/__title/eddi-merks__title.css);
+@import url(../blocks/eddi-merks/__profession/eddi-merks__profession.css);
+@import url(../blocks/eddi-merks/__quote/eddi-merks__quote.css);
+/*highway*/
+@import url(../blocks/highway/highway.css);
+@import url(../blocks/highway/__title/highway__title.css);
+@import url(../blocks/highway/__text/highway__text.css);
+@import url(../blocks/highway/__gallery/highway__gallery.css);
+@import url(../blocks/highway/__img/highway__img.css);
+@import url(../blocks/highway/__slider/highway__slider.css);
+@import url(../blocks/highway/__slider-left/highway__slider-left.css);
+@import url(../blocks/highway/__slider-right/highway__slider-right.css);
+/* bikes */
+@import url(../blocks/bikes/bikes.css);
+@import url(../blocks/bikes/__title/bikes__title.css);
+@import url(../blocks/bikes/__header/bikes__header.css);
+@import url(../blocks/bikes/__list/bikes__list.css);
+@import url(../blocks/bikes/__item/bikes__item.css);
+@import url(../blocks/bikes/__menu/bikes__menu.css);
+@import url(../blocks/bikes/__container/bikes__container.css);
+@import url(../blocks/bikes/__card/bikes__card.css);
+@import url(../blocks/bikes/__photo/bikes__photo.css);
+@import url(../blocks/bikes/__link/bikes__link.css);
+@import url(../blocks/bikes/__photo-background/bikes__photo-background.css);
+/* workout */
+@import url(../blocks/workout/workout.css);
+@import url(../blocks/workout/__container/workout__container.css);
+@import url(../blocks/workout/__image/workout__image.css);
+@import url(../blocks/workout/__title/workout__title.css);
+@import url(../blocks/workout/__text/workout__text.css);
+@import url(../blocks/workout/__links/workout__links.css);
+@import url(../blocks/workout/__links-item/workout__links-item.css);
+@import url(../blocks/workout/__link/workout__link.css);
+@import url(../blocks/workout/__description/workout__description.css);
+/* footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__container/footer__container.css);
+@import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/__input/footer__input.css);
+@import url(../blocks/footer/__copyrigth/footer__copyrigth.css);
+

@@ -1,0 +1,4 @@
+.route__subblock{
+    display: flex;
+    column-gap: 30px;
+}
