@@ -27,6 +27,15 @@
 @import url(../blocks/eddi-merks/__title/eddi-merks__title.css);
 @import url(../blocks/eddi-merks/__profession/eddi-merks__profession.css);
 @import url(../blocks/eddi-merks/__quote/eddi-merks__quote.css);
+/*highway*/
+@import url(../blocks/highway/highway.css);
+@import url(../blocks/highway/__title/highway__title.css);
+@import url(../blocks/highway/__text/highway__text.css);
+@import url(../blocks/highway/__gallery/highway__gallery.css);
+@import url(../blocks/highway/__img/highway__img.css);
+@import url(../blocks/highway/__slider/highway__slider.css);
+@import url(../blocks/highway/__slider-left/highway__slider-left.css);
+@import url(../blocks/highway/__slider-right/highway__slider-right.css);
 /* bikes */
 @import url(../blocks/bikes/bikes.css);
 @import url(../blocks/bikes/__title/bikes__title.css);
