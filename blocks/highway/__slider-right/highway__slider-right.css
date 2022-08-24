@@ -1,0 +1,17 @@
+.highway__slider-right{
+    max-width: 50px;
+    width: 100%;
+    min-height: 50px;
+    border-radius: 25px;
+    background: #EBEBEB;
+}
+.highway__slider-right::before{
+    background-image: url(../../../images/highway__slider-right.svg);
+    content: '';
+    max-width: 7px;
+    width: 100%;
+    min-height: 16px;
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,5 @@
+.highway{
+    width: calc(100% - 120px);
+    margin-left: 120px;
+    padding: 60px 0;
+}
