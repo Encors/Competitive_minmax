@@ -16,3 +16,19 @@
 @import url(../blocks/route/__btn/route__btn.css);
 @import url(../blocks/route/__btn-text/route__btn-text.css);
 @import url(../blocks/route/__img/route__img.css);
+@import url(../blocks/link/link.css); /* Можно использовать этот микс для всех ссылок в проекте (настроить по желанию)*/
+@import url(../blocks/link/_active/link_active.css);
+@import url(../blocks/link/_inactive/link_inactive.css);
+@import url(../blocks/content/content.css);
+/* bikes */
+@import url(../blocks/bikes/bikes.css);
+@import url(../blocks/bikes/__title/bikes__title.css);
+@import url(../blocks/bikes/__header/bikes__header.css);
+@import url(../blocks/bikes/__list/bikes__list.css);
+@import url(../blocks/bikes/__item/bikes__item.css);
+@import url(../blocks/bikes/__menu/bikes__menu.css);
+@import url(../blocks/bikes/__container/bikes__container.css);
+@import url(../blocks/bikes/__card/bikes__card.css);
+@import url(../blocks/bikes/__photo/bikes__photo.css);
+@import url(../blocks/bikes/__link/bikes__link.css);
+@import url(../blocks/bikes/__photo-background/bikes__photo-background.css);

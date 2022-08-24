@@ -1,6 +1,6 @@
 @media screen and (max-width: 767px) {
     .header__list{
-        background-image: url(../../../image/header__line.svg);
+        background-image: url(../../../images/header__line.svg);
         max-width: 22px;
         width: 100%;
         min-height: 3px;
