@@ -8,10 +8,14 @@
   grid-column: 2;
 }
 
+@media screen and (max-width: 768px) {
+  .workout__image {
+    margin: 40px auto;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .workout__image {
     height: 225px;
-    width: 100%;
-    margin: 40px 0;
   }
 }

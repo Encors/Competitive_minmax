@@ -8,10 +8,18 @@
   opacity: 0.7;
 }
 
+@media screen and (max-width: 768px) {
+  .workout__text {
+    font-size: 15px;
+    line-height: 18px;
+    margin: 0;
+  }
+}
+
+
 @media screen and (max-width: 425px) {
   .workout__text {
     font-size: 12px;
     line-height: 18px;
-    margin: 0;
   }
 }
