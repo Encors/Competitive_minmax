@@ -1,0 +1,6 @@
+.footer__container {
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+}
