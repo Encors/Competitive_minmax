@@ -1,12 +1,12 @@
 @media screen and (max-width: 767px) {
-    .header__list{
+    .header__line{
         background-image: url(../../../images/header__line.svg);
         max-width: 22px;
         width: 100%;
         min-height: 3px;
         margin-bottom: 8px;
     }
-    .header__list:last-child{
+    .header__line:last-child{
         margin-bottom: 0;
     }
 }
