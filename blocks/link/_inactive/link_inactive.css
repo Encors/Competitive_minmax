@@ -4,5 +4,5 @@
 }
 
 .link_inactive:hover {
-    font-weight: 600;
+    opacity: 0.6;
 }
