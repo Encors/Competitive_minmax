@@ -1,0 +1,7 @@
+.workout__links-item {
+    margin-right: 30px;
+}
+
+.workout__links-item:last-child {
+    margin-right: 0px;
+}

@@ -1,6 +1,10 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/page/page.css);
+@import url(../blocks/content/content.css);
+@import url(../blocks/link/link.css); /* Можно использовать этот микс для всех ссылок в проекте (настроить по желанию)*/
+@import url(../blocks/link/_active/link_active.css);
+@import url(../blocks/link/_inactive/link_inactive.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__menu/header_menu.css);
@@ -23,10 +27,6 @@
 @import url(../blocks/eddi-merks/__title/eddi-merks__title.css);
 @import url(../blocks/eddi-merks/__profession/eddi-merks__profession.css);
 @import url(../blocks/eddi-merks/__quote/eddi-merks__quote.css);
-@import url(../blocks/link/link.css); /* Можно использовать этот микс для всех ссылок в проекте (настроить по желанию)*/
-@import url(../blocks/link/_active/link_active.css);
-@import url(../blocks/link/_inactive/link_inactive.css);
-@import url(../blocks/content/content.css);
 /* bikes */
 @import url(../blocks/bikes/bikes.css);
 @import url(../blocks/bikes/__title/bikes__title.css);
@@ -39,3 +39,13 @@
 @import url(../blocks/bikes/__photo/bikes__photo.css);
 @import url(../blocks/bikes/__link/bikes__link.css);
 @import url(../blocks/bikes/__photo-background/bikes__photo-background.css);
+/* workout */
+@import url(../blocks/workout/workout.css);
+@import url(../blocks/workout/__container/workout__container.css);
+@import url(../blocks/workout/__image/workout__image.css);
+@import url(../blocks/workout/__title/workout__title.css);
+@import url(../blocks/workout/__text/workout__text.css);
+@import url(../blocks/workout/__links/workout__links.css);
+@import url(../blocks/workout/__links-item/workout__links-item.css);
+@import url(../blocks/workout/__link/workout__link.css);
+@import url(../blocks/workout/__description/workout__description.css);

@@ -1,0 +1,7 @@
+.workout__container {
+    margin: 0 auto;
+    max-width: calc(100% - 120px*2);
+    display: grid;
+    column-gap: 160px;
+    grid-template-columns: 460px 1fr;
+}
