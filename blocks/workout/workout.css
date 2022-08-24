@@ -1,3 +1,9 @@
 .workout {
   padding: 150px 0 120px 0;
 }
+
+@media screen and (max-width: 425px) {
+  .workout {
+    padding: 80px 0 60px 0;
+  }
+}

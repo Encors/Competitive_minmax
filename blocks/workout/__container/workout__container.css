@@ -4,4 +4,14 @@
     display: grid;
     column-gap: 160px;
     grid-template-columns: 460px 1fr;
+    grid-template-rows: minmax(60px, auto);
+}
+
+@media screen and (max-width: 425px) {
+    .workout__container {
+        max-width: 284px;
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
 }
