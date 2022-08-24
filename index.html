@@ -12,6 +12,7 @@
         <nav class="header__menu">
           <ul class="header__links">
             <li class="header__list"><a href="#" class="header__link">Покрытия и градиенты</a></li>
+            <!--  list не подходит, это не список, а элемент списка -->
             <li class="header__list"><a href="#" class="header__link">Велосипеды</a></li>
             <li class="header__list"><a href="#" class="header__link">Тренировки</a></li>
           </ul>
@@ -21,14 +22,18 @@
         <section class="route">
           <div class="route__info">
             <h1 class="route__title">Шоссе, ТТ и Грэвел</h1>
-            <p class="route__text">Триатлонные старты, горные серпантины или грейвел заезды по живописным маршрутам – нужно только определиться с выбором велосипеда и отправиться в путь.</p>
+            <p class="route__text">
+              Триатлонные старты, горные серпантины или грейвел заезды по живописным маршрутам – нужно только определиться с выбором велосипеда и отправиться в
+              путь.
+            </p>
             <div class="route__btn"><p class="route__btn-text">Подробнее</p></div>
+            <!-- нужен тег button -->
             <div class="route__subblock">
               <div class="route__subblock-text">Cannondale Systemsix</div>
               <div class="route__subblock-line"></div>
             </div>
           </div>
-          <img src="images/route__img.jpg" alt="Маршрут через лес и горы" class="route__img">
+          <img src="images/route__img.jpg" alt="Маршрут через лес и горы" class="route__img" />
         </section>
         <!-- Блок с велосипедами -->
         <section class="bikes">
@@ -44,21 +49,41 @@
           </div>
           <div class="bikes__container">
             <article class="bikes__card">
-              <div class="bikes__photo-background"> <img src="./images/Cervelo Caledonia-5.png" class="bikes__photo" alt="Фотография велосипеда" /></div>
-              <a class="bikes__link link" 
-                 href="https://www.sigmasports.com/item/Cervelo/Caledonia-5-Ultegra-Disc-Road-Bike-2021/RDEN">Cervelo Caledonia-5</a>
+              <div class="bikes__photo-background">
+                <img src="./images/Cervelo Caledonia-5.png" class="bikes__photo" alt="Фотография велосипеда" />
+              </div>
+              <a class="bikes__link link" href="https://www.sigmasports.com/item/Cervelo/Caledonia-5-Ultegra-Disc-Road-Bike-2021/RDEN">Cervelo Caledonia-5</a>
             </article>
             <article class="bikes__card">
-              <div class="bikes__photo-background"><img src="./images/Cannondale Systemsix Himod.png" class="bikes__photo" alt="Фотография велосипеда" /></div>
-              <a class="bikes__link link" 
-                 href="https://www.sigmasports.com/item/Cannondale/SystemSix-HiMOD-Ultegra-Di2-Disc-Road-Bike-2021/R82J">Cannondale Systemsix Himod</a>
+              <div class="bikes__photo-background">
+                <img src="./images/Cannondale Systemsix Himod.png" class="bikes__photo" alt="Фотография велосипеда" />
+              </div>
+              <a class="bikes__link link" href="https://www.sigmasports.com/item/Cannondale/SystemSix-HiMOD-Ultegra-Di2-Disc-Road-Bike-2021/R82J"
+                >Cannondale Systemsix Himod</a
+              >
             </article>
             <article class="bikes__card">
-              <div class="bikes__photo-background"> <img src="./images/Trek Domane SL-7.png" class="bikes__photo" alt="Фотография велосипеда" /></div>
-              <a class="bikes__link link" 
-                 href="https://www.sigmasports.com/item/Trek/Domane-SL-7-Force-eTap-AXS-Disc-Road-Bike-2021/RULF">Trek Domane SL-7</a>
+              <div class="bikes__photo-background"><img src="./images/Trek Domane SL-7.png" class="bikes__photo" alt="Фотография велосипеда" /></div>
+              <a class="bikes__link link" href="https://www.sigmasports.com/item/Trek/Domane-SL-7-Force-eTap-AXS-Disc-Road-Bike-2021/RULF">Trek Domane SL-7</a>
             </article>
           </div>
+        </section>
+        <!-- Блок "Тренировки" -->
+        <section class="workout">
+          <article class="workout__container">
+            <div class="workout__description">
+              <h2 class="workout__title">Тренировки</h2>
+              <p class="workout__text">
+                Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot, а записать эти тренировки поможет приложение Strava, а также это
+                приложение позволит построить тренировочный план.
+              </p>
+            </div>
+            <ul class="workout__links">
+              <li class="workout__links-item"><a href="https://www.strava.com" class="workout__link link">Strava</a></li>
+              <li class="workout__links-item"><a href="https://www.komoot.com" class="workout__link link">Komoot</a></li>
+            </ul>
+            <img src="./images/workout__image.jpg" class="workout__image" alt="Велодорожка в лесу" />
+          </article>
         </section>
       </main>
       <footer class="footer"></footer>
