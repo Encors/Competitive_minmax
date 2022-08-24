@@ -7,7 +7,7 @@
     line-height: 18px;
     text-align: right;
     color: #151515;
-    transition: opacity 0.4s;
+    transition: opacity 0.3s;
 }
 .header__link:hover{
     opacity: 0.75;
