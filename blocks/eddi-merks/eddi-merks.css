@@ -3,5 +3,5 @@
     column-gap: 80px;
     padding: 120px 0 60px;
     margin: 0 120px;
-    width: calc(100% - 120px *2);
+    max-width: calc(100% - 120px *2);
 }
