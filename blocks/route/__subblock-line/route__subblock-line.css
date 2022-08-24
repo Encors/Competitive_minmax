@@ -1,0 +1,7 @@
+.route__subblock-line{
+    max-width: 132px;
+    width: 100%;
+    max-height: 2px;
+    background-image: url(../../../image/route__line.svg);
+    margin: calc(16px / 2) 0 calc(16px / 2);
+}

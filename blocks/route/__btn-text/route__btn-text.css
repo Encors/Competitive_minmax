@@ -1,0 +1,13 @@
+.route__btn-text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    width: calc(100% - 10px * 2);
+    margin: 0 auto;
+    padding: 16px 0;
+}
