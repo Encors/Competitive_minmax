@@ -1,4 +1,21 @@
 .eddi-merks__img{
     max-width: 650px;
     width: 100%;
+    object-fit: contain;
+}
+@media screen and (max-width: 1279px){
+    .eddi-merks__img{
+        max-width: 500px;
+    }
+}
+@media screen and (max-width: 1023px){
+    .eddi-merks__img{
+        max-width: 400px;
+    }
+}
+@media screen and (max-width: 767px){
+    .eddi-merks__img{
+        min-width: 284px;
+        margin: auto;
+    }
 }

@@ -29,6 +29,7 @@
 @import url(../blocks/eddi-merks/__blockquote/eddi-merks__blockquote.css);
 @import url(../blocks/eddi-merks/__profession/eddi-merks__profession.css);
 @import url(../blocks/eddi-merks/__quote/eddi-merks__quote.css);
+@import url(../blocks/eddi-merks/__line/eddi-merks__line.css);
 /*highway*/
 @import url(../blocks/highway/highway.css);
 @import url(../blocks/highway/__title/highway__title.css);

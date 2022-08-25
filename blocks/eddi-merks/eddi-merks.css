@@ -3,5 +3,23 @@
     column-gap: 80px;
     padding: 120px 0 60px;
     margin: 0 120px;
-    max-width: calc(100% - 120px *2);
+    width: calc(100% - 120px *2);
+}
+@media screen and (max-width: 1279px){
+    .eddi-merks{
+        column-gap: 50px;
+    }
+}
+@media screen and (max-width: 1023px){
+    .eddi-merks{
+        column-gap: 40px;
+        width: calc(100% - 18px * 2);
+        margin: 0 18px;
+    }
+}
+@media screen and (max-width: 767px){
+    .eddi-merks{
+        flex-direction: column;
+        padding: 40px 0;
+    }
 }

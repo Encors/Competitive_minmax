@@ -7,3 +7,10 @@
     color: #151515;
     margin: 0 0 6px;
 }
+@media screen and (max-width: 767px){
+    .eddi-merks__name{
+        font-size: 14px;
+        line-height: 22px;
+        margin: 0 0 4px;
+    }
+}
