@@ -22,11 +22,12 @@
 @import url(../blocks/route/__btn/route__btn.css);
 @import url(../blocks/route/__btn-text/route__btn-text.css);
 @import url(../blocks/route/__img/route__img.css);
+/*eddi-merks*/
 @import url(../blocks/eddi-merks/eddi-merks.css);
 @import url(../blocks/eddi-merks/__author/eddi-merks__author.css);
 @import url(../blocks/eddi-merks/__img/eddi-merks__img.css);
 @import url(../blocks/eddi-merks/__name/eddi-merks__name.css);
-@import url(../blocks/eddi-merks/__title/eddi-merks__title.css);
+@import url(../blocks/eddi-merks/__blockquote/eddi-merks__blockquote.css);
 @import url(../blocks/eddi-merks/__profession/eddi-merks__profession.css);
 @import url(../blocks/eddi-merks/__quote/eddi-merks__quote.css);
 /*highway*/
