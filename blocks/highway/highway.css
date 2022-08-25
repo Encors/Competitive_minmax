@@ -3,3 +3,17 @@
     margin-left: 120px;
     padding: 60px 0;
 }
+@media screen and (max-width: 1023px) {
+    .highway{
+        margin: 0 18px;
+        width: calc(100% - 18px * 2);
+        padding: 40px 0;
+    }
+}
+@media screen and (max-width: 767px) {
+    .highway{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 40px 0;
+    }
+}

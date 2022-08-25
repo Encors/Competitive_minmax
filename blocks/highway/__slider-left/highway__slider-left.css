@@ -1,7 +1,6 @@
 .highway__slider-left{
-    max-width: 50px;
-    width: 100%;
-    min-height: 50px;
+    width: 50px;
+    height: 50px;
     border-radius: 25px;
     background: #EBEBEB;
     position: relative;
@@ -9,10 +8,23 @@
 .highway__slider-left::before{
     background-image: url(../../../images/highway__slider-left.svg);
     content: '';
-    max-width: 7px;
-    width: 100%;
-    min-height: 16px;
+    width: 7px;
+    height: 16px;
     position: absolute;
-    background-size: cover;
+    top: 16px;
+    left: 19px;
+    background-size: contain;
     background-repeat: no-repeat;
+}
+@media screen and (max-width: 767px) {
+    .highway__slider-left{
+        width: 24px;
+        height: 24px;
+    }
+    .highway__slider-left::before{
+        width: 4.5px;
+        height: 10px;
+        top: 8px;
+        left: 8px;
+    }
 }

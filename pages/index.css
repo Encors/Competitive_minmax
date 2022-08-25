@@ -39,6 +39,7 @@
 @import url(../blocks/highway/__slider/highway__slider.css);
 @import url(../blocks/highway/__slider-left/highway__slider-left.css);
 @import url(../blocks/highway/__slider-right/highway__slider-right.css);
+@import url(../blocks/highway/__line/highway__line.css);
 /* bikes */
 @import url(../blocks/bikes/bikes.css);
 @import url(../blocks/bikes/__title/bikes__title.css);

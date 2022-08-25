@@ -1,17 +1,30 @@
 .highway__slider-right{
-    max-width: 50px;
-    width: 100%;
-    min-height: 50px;
+    width: 50px;
+    height: 50px;
     border-radius: 25px;
     background: #EBEBEB;
+    position: relative;
 }
 .highway__slider-right::before{
     background-image: url(../../../images/highway__slider-right.svg);
     content: '';
-    max-width: 7px;
-    width: 100%;
-    min-height: 16px;
+    width: 7px;
+    height: 16px;
     position: absolute;
-    background-size: cover;
+    top: 16px;
+    left: 21px;
+    background-size: contain;
     background-repeat: no-repeat;
+}
+@media screen and (max-width: 767px) {
+    .highway__slider-right{
+        width: 24px;
+        height: 24px;
+    }
+    .highway__slider-right::before{
+        width: 4.5px;
+        height: 10px;
+        top: 8px;
+        left: 10px;
+    }
 }

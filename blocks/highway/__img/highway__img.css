@@ -1,4 +1,30 @@
 .highway__img{
     max-width: 650px;
     width: 100%;
+    object-fit: contain;
+}
+@media screen and (max-width: 1439px) {
+    .highway__img{
+        max-width: 559px;
+    }
+}
+@media screen and (max-width: 1279px) {
+    .highway__img{
+        max-width: 432px;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .highway__img{
+        max-width: 346px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .highway__img{
+        min-width: 284px;    
+    }
+}
+@media screen and (max-width: 767px) {
+    .highway__img:last-child{
+        display: none;
+    }
 }
