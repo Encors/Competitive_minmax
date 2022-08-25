@@ -60,11 +60,13 @@
 @import url(../blocks/workout/__links/workout__links.css);
 @import url(../blocks/workout/__links-item/workout__links-item.css);
 @import url(../blocks/workout/__link/workout__link.css);
-@import url(../blocks/workout/__description/workout__description.css);
 /* footer */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__container/footer__container.css);
 @import url(../blocks/footer/__title/footer__title.css);
 @import url(../blocks/footer/__input/footer__input.css);
-@import url(../blocks/footer/__copyrigth/footer__copyrigth.css);
-
+@import url(../blocks/footer/__copyright/footer__copyrigth.css);
+/* slider */
+@import url(../vendor/slick/slick.css);
+@import url(../vendor/slick/slick-theme.css);
+@import url(../blocks/bikes/__slider/bikes__slider.css);

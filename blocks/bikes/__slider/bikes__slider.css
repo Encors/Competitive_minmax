@@ -1,0 +1,21 @@
+.bikes__slider {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 120px auto 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .bikes__slider {
+    display: block;
+    max-width: calc(100% - 30px * 2);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .bikes__slider {
+    margin: 35px auto 0;
+    max-width: 284px;
+  }
+}
