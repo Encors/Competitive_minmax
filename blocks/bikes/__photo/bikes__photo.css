@@ -1,5 +1,11 @@
 .bikes__photo {
   max-width: 340px;
   border-radius: 20px;
-  margin: 20px auto;
+  margin: 20px;
+}
+
+@media screen and (max-width: 425px) {
+  .bikes__photo {
+    max-width: 255px;
+  }
 }

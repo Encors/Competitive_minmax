@@ -8,7 +8,7 @@
   grid-column: 2;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
   .workout__image {
     margin: 40px auto;
   }

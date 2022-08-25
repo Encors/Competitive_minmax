@@ -6,6 +6,13 @@
   letter-spacing: -0.5px;
 }
 
+@media screen and (max-width: 1110px) {
+  .workout__title {
+    font-size: 40px;
+  }
+}
+
+
 @media screen and (max-width: 425px) {
   .workout__title {
     font-size: 32px;

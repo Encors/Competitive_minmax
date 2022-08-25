@@ -7,7 +7,14 @@
   grid-template-rows: minmax(60px, auto);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1110px) {
+  .workout__container {
+    grid-template-columns: 250px 1fr;
+    column-gap: 100px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
   .workout__container {
     max-width: 580px;
     margin: 0 auto;
@@ -18,7 +25,5 @@
 @media screen and (max-width: 425px) {
   .workout__container {
     max-width: calc(100% - 18px * 2);
-    margin: 0 auto;
-    display: block;
   }
 }
