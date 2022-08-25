@@ -2,3 +2,11 @@
     display: flex;
     column-gap: 20px
 }
+@media screen and (max-width: 767px) {
+    .highway__slider{
+        grid-area: 2 / 1 / 2 / 1;
+        margin-left: 70%;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}

@@ -10,3 +10,17 @@
     width: 100%;
     margin: 0 0 80px;
 }
+@media screen and (max-width: 1023px) {
+    .highway__text{
+        margin: 0 0 40px;
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .highway__text{
+        font-size: 12px;
+        line-height: 18px;
+        margin: 0;
+        grid-area: 4 / 1 / 4 / 1;
+    }
+}
