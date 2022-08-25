@@ -114,10 +114,10 @@
 }
 
 /* Dots */
-.slick-dotted.slick-slider
+/* .slick-dotted.slick-slider
 {
     margin-bottom: 40px;
-}
+} */
 
 .slick-dots
 {
@@ -201,4 +201,8 @@
 {
     opacity: .75;
     color: black;
+}
+
+.slider__item {
+    text-align: center;
 }

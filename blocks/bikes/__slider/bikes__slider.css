@@ -9,7 +9,7 @@
 @media screen and (max-width: 768px) {
   .bikes__slider {
     display: block;
-    max-width: calc(100% - 30px * 2);
+    margin: 60px auto 0;
   }
 }
 

@@ -5,6 +5,12 @@
   flex-direction: column;
 }
 
+@media screen and (max-width: 768px) {
+  .bikes__card {
+    margin: 0 18px;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .bikes__card {
     position: relative;
