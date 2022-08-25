@@ -1,0 +1,11 @@
+.eddi-merks__line{
+    display: none;
+}
+@media screen and (max-width: 767px){
+    .eddi-merks__line{
+        display: block;
+        width: 100%;
+        border: 1px solid #E3E3E3;
+        margin-bottom: 20px;
+    }
+}

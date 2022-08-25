@@ -8,3 +8,17 @@
     color: #151515;
     margin: 0;
 }
+@media screen and (max-width: 1279px){
+    .eddi-merks__blockquote{
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+@media screen and (max-width: 767px){
+    .eddi-merks__blockquote{
+        font-weight: 600;
+        font-size: 23px;
+        line-height: 29px;
+        margin: 40px 0;
+    }
+}
