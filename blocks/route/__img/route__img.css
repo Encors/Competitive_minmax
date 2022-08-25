@@ -2,4 +2,26 @@
     max-width: 610px;
     width: 100%;
     margin-top: 20px;
+    object-fit: contain;
+    grid-area: 1 / 2 / 4 / 2;
+}
+@media screen and (max-width: 1279px){
+    .route__img{
+        max-width: 500px;
+    }
+}
+@media screen and (max-width: 1023px){
+    .route__img{
+        max-width: 400px;
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 767px){
+    .route__img{
+        min-width: 254px;
+        width: calc(100% - 48px - 18px);
+        margin: 0 18px 0 48px;
+        min-height: 348px;
+        grid-area: 2 / 1 / 2 / 1;
+    }
 }

@@ -1,3 +1,8 @@
 .route__info{
     margin-left: 120px;
 }
+@media screen and (max-width: 1023px){
+    .route__info{
+        margin-left: 0;
+    }
+}
