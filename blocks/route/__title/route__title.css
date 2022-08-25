@@ -10,3 +10,21 @@
     width: 100%;
     margin: 80px 0 50px;
 }
+@media screen and (max-width: 1279px){
+    .route__title{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width: 1023px){
+    .route__title{
+        font-size: 40px;
+        margin: 40px 0;
+    }
+}
+@media screen and (max-width: 767px){
+    .route__title{
+        font-size: 32px;
+        line-height: 40px;
+        grid-area: 1 / 1 / 1 / 1;
+    }
+}
