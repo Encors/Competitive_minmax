@@ -3,6 +3,9 @@
     column-gap: 40px;
     margin: 0 0 50px;
     width: 100%;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
 }
 @media screen and (max-width: 1023px) {
     .highway__gallery{
