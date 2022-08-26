@@ -15,8 +15,7 @@
 
 @media screen and (max-width: 425px) {
   .bikes__slider {
-    margin: 35px auto 0;
+    margin: 28px auto 0;
     max-width: 284px;
-    min-height: 306px;
   }
 }

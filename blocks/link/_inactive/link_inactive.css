@@ -6,3 +6,9 @@
 .link_inactive:hover {
     opacity: 0.6;
 }
+
+@media screen and (max-width:425px) {
+    .link_inactive {
+        display: none;
+    }
+}

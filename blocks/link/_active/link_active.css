@@ -1,3 +1,9 @@
 .link_active {
-    font-weight: 600;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 425px) {
+  .link_active {
+    margin-left: 12px;
+  }
 }
