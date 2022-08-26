@@ -21,6 +21,9 @@
 @import url(../blocks/route/__btn/route__btn.css);
 @import url(../blocks/route/__btn-text/route__btn-text.css);
 @import url(../blocks/route/__img/route__img.css);
+@import url(../blocks/route/__bike-container/route__bike-container.css);
+@import url(../blocks/route/__bike-fix/route__bike-fix.css);
+@import url(../blocks/route/__bike-img/route__bike-img.css);
 /*eddi-merks*/
 @import url(../blocks/eddi-merks/eddi-merks.css);
 @import url(../blocks/eddi-merks/__author/eddi-merks__author.css);
