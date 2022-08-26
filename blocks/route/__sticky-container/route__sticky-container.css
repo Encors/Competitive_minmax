@@ -1,0 +1,9 @@
+.route__sticky-container {
+    max-width: 810px;
+    height: 430px;
+    width: 100%;
+    border: 1px solid red;
+    position: absolute;
+    right: 0;
+    top: 347px;
+}

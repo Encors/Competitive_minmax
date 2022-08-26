@@ -1,0 +1,25 @@
+.route__image-background {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  max-width: 440px;
+  height: 300px;
+  background-color: #f4f4f4;
+  filter: drop-shadow(-20px 60px 220px rgba(0, 0, 0, 0.2));
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+
+.route__image-background::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #f4f4f4;
+  border-radius: 20px;
+  mix-blend-mode: darken;
+}
