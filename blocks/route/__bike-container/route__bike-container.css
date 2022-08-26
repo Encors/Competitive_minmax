@@ -27,5 +27,6 @@
     .route__bike-container{
         top: 311px;
         left: 0;
+        max-height: 200px;
     }
 }
