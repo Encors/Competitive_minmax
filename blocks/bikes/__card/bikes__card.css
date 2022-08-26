@@ -9,7 +9,7 @@
 @media screen and (max-width: 768px) {
   .bikes__card {
     margin: 0 18px;
-    max-width: 100vw;
+    width: calc(100% - 18px * 2);
   }
 }
 
