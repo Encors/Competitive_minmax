@@ -26,5 +26,6 @@
         font-size: 32px;
         line-height: 40px;
         grid-area: 1 / 1 / 1 / 1;
+        max-width: 190px;
     }
 }
