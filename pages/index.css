@@ -55,6 +55,7 @@
 @import url(../blocks/bikes/__photo/bikes__photo.css);
 @import url(../blocks/bikes/__link/bikes__link.css);
 @import url(../blocks/bikes/__photo-background/bikes__photo-background.css);
+@import url(../blocks/bikes/__line/bikes__line.css);
 /* workout */
 @import url(../blocks/workout/workout.css);
 @import url(../blocks/workout/__container/workout__container.css);
@@ -64,6 +65,7 @@
 @import url(../blocks/workout/__links/workout__links.css);
 @import url(../blocks/workout/__links-item/workout__links-item.css);
 @import url(../blocks/workout/__link/workout__link.css);
+@import url(../blocks/workout/__line/workout__line.css);
 /* footer */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__container/footer__container.css);

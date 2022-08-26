@@ -13,10 +13,10 @@
 }
 
 @media screen and (max-width: 425px) {
-  .bikesr {
+  .bikes {
     max-width: calc(100% - 18px * 2);
     display: block;
     max-width: 284px;
-    padding: 80px 0 0 0;
+    padding: 40px 0 0 0;
   }
 }

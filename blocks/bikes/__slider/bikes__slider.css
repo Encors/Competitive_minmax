@@ -17,5 +17,6 @@
   .bikes__slider {
     margin: 35px auto 0;
     max-width: 284px;
+    min-height: 306px;
   }
 }
