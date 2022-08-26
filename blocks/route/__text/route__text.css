@@ -11,9 +11,10 @@
     margin: 0 0 50px;
     grid-area: 2 / 1 / 2 / 1;
 }
-@media screen and (max-width: 1023px){
+@media screen and (max-width: 1023px) and (min-width: 768px){
     .route__text{
         font-size: 16px;
+        max-width: 300px;
     }
 }
 @media screen and (max-width: 767px){
